@@ -1,19 +1,19 @@
 /* mobile */
-:root{
-    --corPadrao:#ffc107;
+:root {
+	--corPadrao: #ffc107;
 }
-body{
-    background-color: var(--corPadrao);
+body {
+	background-color: var(--corPadrao);
 }
-#back{
-    background-color: #ffffff;
+#back {
+	background-color: #ffffff;
 
-    height: 36.5em;
+	height: 36.5em;
 }
-.width{
-    max-width: 230px;
+.wh {
+	max-width: 230px;
+	max-height: 250px;
 }
-.card{
-  box-shadow:0px 5px 10px 0px rgba(0, 0, 0, 0.575);
-
+.card {
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.575);
 }
