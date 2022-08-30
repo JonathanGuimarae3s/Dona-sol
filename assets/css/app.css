@@ -1,4 +1,6 @@
 /* declaraçoes gerais */
+	display: flex;
+}
 :root {
 	--corPadrao: #ffc107;
 }
