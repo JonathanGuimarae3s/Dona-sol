@@ -1,4 +1,5 @@
 /* declaraçoes gerais */
+.card-wrapper{
 	display: flex;
 }
 :root {
