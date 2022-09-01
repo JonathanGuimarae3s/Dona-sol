@@ -1,5 +1,5 @@
 /* declaraçoes gerais */
-.card-wrapper {
+.card-wrapper{
 	display: flex;
 }
 :root {
@@ -9,21 +9,23 @@ body {
 	background-color: var(--corPadrao);
 }
 #unidades {
+
 	height: 36.5em;
 }
 .wh {
 	max-width: 230px;
+	 
 }
 
 .card {
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.575);
-	background-color: #ffffff;
+	background-color:#FFFFFF
 }
 /* fim das declaraçoes gerais */
 /*  */
-#kits-babys > h4 {
+#kits-babys>h4{
 	margin-left: 5em;
 }
-.text-end > span {
-	color: #e00024;
+.text-end>span{
+color: #E00024;
 }
