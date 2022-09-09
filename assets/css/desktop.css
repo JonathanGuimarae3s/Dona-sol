@@ -1,0 +1,14 @@
+@media screen and (min-width: 600px) {
+	/* header */
+	.navbar-nav {
+		width: 440px;
+	}
+	/* fim header */
+	/* seção de unidades */
+	#unidades {
+		height: 37em;
+	}
+	.card {
+		width: 30%;
+	}
+}
