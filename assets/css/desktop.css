@@ -1,5 +1,8 @@
 @media screen and (min-width: 600px) {
 	/* header */
+	header {
+		height: fit-content;
+	}
 	.navbar-nav {
 		width: 440px;
 	}

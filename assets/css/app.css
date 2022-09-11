@@ -2,17 +2,32 @@
 
 :root {
 	--corPadrao: #ffc107;
+	--cor2: #f50b24;
+	--cor3: #592614;
+	--colorBlack: #0d0b08;
+	--cor4: #0aa66d;
 }
+
 body {
-	background-color: var(--corPadrao);
+	background-color: var(--cor2);
 }
 /* header */
 header {
-	height: 50px;
+	height: fit-content;
 }
-.navbar-toggler-icon {
-	background-image: url(imgs/menu-bars.png);
+.navbar-brand > a {
+	text-decoration: none;
+	
+	font-weight: 500;
 }
+#encomendar{
+	background-color: var(--cor3);
+}
+/* canvas */
+.offcanvas {
+	background: var(--cor2);
+}
+
 /* fim header */
 /* Unidades */
 
