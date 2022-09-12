@@ -32,7 +32,7 @@ header {
 /* Unidades */
 
 #unidades {
-	height: 98em;
+	height: fit-content 
 }
 
 .card {
@@ -42,9 +42,4 @@ header {
 }
 /* fim das declaraçoes gerais */
 /*  */
-#kits-babys > h4 {
-	margin-left: 5em;
-}
-.text-end > span {
-	color: #e00024;
-}
+
