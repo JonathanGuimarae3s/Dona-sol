@@ -17,10 +17,16 @@ header {
 }
 .navbar-brand > a {
 	text-decoration: none;
-	
+
 	font-weight: 500;
 }
-#encomendar{
+li.btn{
+	width: max-content;
+}
+.offcanvas.offcanvas-end{
+	width: 215px;
+}
+#encomendar {
 	background-color: var(--cor3);
 }
 /* canvas */
@@ -32,7 +38,8 @@ header {
 /* Unidades */
 
 #unidades {
-	height: fit-content 
+	height: fit-content;
+	padding: 10px;
 }
 
 .card {
@@ -42,4 +49,3 @@ header {
 }
 /* fim das declaraçoes gerais */
 /*  */
-
