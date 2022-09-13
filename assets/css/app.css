@@ -1,4 +1,10 @@
-/* declaraçoes gerais */
+/* declaraçoes gerais */	
+*{margin: 0%;
+
+padding: 0%;
+
+
+}
 
 :root {
 	--corPadrao: #ffc107;
@@ -33,6 +39,7 @@ li.btn{
 .offcanvas {
 	background: var(--cor2);
 }
+/*fim canvas */
 
 /* fim header */
 /* Unidades */
@@ -44,8 +51,21 @@ li.btn{
 
 .card {
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.575);
-	width: 50%;
-	background-color: #ffffff;
+
+	max-width: 50%;
+	padding: 0%;
+	
 }
-/* fim das declaraçoes gerais */
-/*  */
+/* fim Unidades */
+/* Cardapio */
+.row{
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* fim cardapio */
