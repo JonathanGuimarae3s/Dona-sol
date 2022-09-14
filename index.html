@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/css/imgs/logo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-    <title>Delícias da Nonna</title>
+    <title>Dona Sol | Refeições e lanches</title>
 
     <link rel="stylesheet" href="assets/css/app.css">
 
@@ -17,88 +17,118 @@
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand">
-            <div class="container-fluid">
-                <a class="navbar-brand">Delícias da Nonna</a>
-                <div class="navbar-nav d-flex justify-content-between align-items-center">
-                    <div class="nav-item"><a class="nav-link" href="#">Home</a></div>
-                    <div class="nav-item"><a href="#" class="nav-link">Combos</a></div>
-                    <div class="nav-item"><a href="#" class="nav-link">Redes sociais</a></div>
-                    <div><button class=" nav-item btn btn-success">Realizar encomenda</button></div>
+
+    <header>
+        <nav class="  navbar navbar-expand-sm  ">
+            <div class="container-fluid justify-content-between mx-2 ">
+                <div class="navbar-brand">
+                    <img src="assets/css/imgs/logo.jpg" width="50px" alt=""><a class="text-light" href="#"> Dona
+                        Sol</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">Dona Sol</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link  text-light " aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-light" href="#">Combos</a>
+                            </li>
+                            <li class="nav-item  ">
+                                <a class="nav-link text-light" href="#">Sobre</a>
+                            </li>
+                            <li class="btn " id="encomendar"><a href="#" class="nav-link text-light">Realizar
+                                    encomenda</a></li>
+
+
+                        </ul>
+
+                    </div>
                 </div>
             </div>
-
         </nav>
+
     </header>
     <main>
+
         <!-- unidades -->
         <section id="unidades" class="container-fluid bg-white">
 
-            <h4 class="text-center p-3">Nossas Unidades</h4>
-            <div class="card-deck d-flex gap-5 align-center justify-content-center mt-2">
-                <div class="card wh">
-                    <img class="card-img-top" src="assets/css/imgs/card-img.jpg" alt="">
-                    <div class="card-header">
-                        <h5 class="text-center">Nova Iguaçu</h5>
-                    </div>
-                    <div class="card-body ">
-                        <p><i class="fa-solid fa-clock"></i> De segunda a sábado, de 08h às 20h.</p>
-                        <span>
-                            <i class="fa-solid fa-location-dot "></i>
-                        </span>
-                        <address class="d-inline fst-italic">
-                            Mal. Floriano Peixoto, 2247 - Centro, Nova Iguaçu.
-                        </address>
-                    </div>
-                    <div class="card-footer text-center">
-                        <a href="#"><button class="btn btn-outline-success">Entrar em
-                                contato</button></a>
-                    </div>
-                </div>
-                <div class="card wh">
-                    <img class="card-img-top" src="assets/css/imgs/card-img.jpg" alt="">
-                    <div class="card-header text-center">
-                        <h5>Nilópolis</h5>
-                        <h6 class="card-subtitle mb-1 text-muted">Matriz</h6>
-                    </div>
-                    <div class="card-body ">
-                        <p><i class="fa-solid fa-clock"></i> De segunda a sábado, de 08h às 20h.</p>
-                        <span>
-                            <i class="fa-solid fa-location-dot "></i>
-                        </span>
-                        <address class="d-inline fst-italic">
-                            R. Mario de Araújo, 78 - Centro, Nilópolis.
-                        </address>
-                    </div>
-                    <div class="card-footer text-center">
-
-                        <a href="#"><button class="btn btn-outline-success">Entrar em
-                                contato</button></a>
-                    </div>
-                </div>
-                <div class="card wh">
-                    <img class="card-img-top" src="assets/css/imgs/card-img.jpg" alt="">
-                    <div class="card-header text-center">
-                        <h5 class="">Nilópolis</h5>
-                        <h6 class="card-subtitle mb-1 text-muted">Mirandela</h6>
+            <div class="container">
+                <h4 class="text-center p-3">Nossas Unidades</h4>
+                <div class="card-deck  d-flex  flex-row flex-wrap justify-content-center align-center gap-4">
+                    <div class="row">
+                        <div class="col card wh">
+                            <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="">
+                            <div class="card-header">
+                                <h5 class="text-center">Campo Grande</h5>
+                            </div>
+                            <div class="card-body ">
+                                <p><i class="fa-solid fa-clock"></i>Lorem ipsum dolor sit amet.</p>
+                                <span>
+                                    <i class="fa-solid fa-location-dot "></i>
+                                </span>
+                                <address class="d-inline fst-italic">
+                                    Lorem ipsum dolor sit amet
+                                </address>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#"><button class="btn btn-outline-success">Entrar em
+                                        contato</button></a>
+                            </div>
+                        </div>
+                        <div class="col card wh">
+                            <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="">
+                            <div class="card-header">
+                                <h5 class="text-center">Campo Grande</h5>
+                            </div>
+                            <div class="card-body ">
+                                <p><i class="fa-solid fa-clock"></i>Lorem ipsum dolor sit amet.</p>
+                                <span>
+                                    <i class="fa-solid fa-location-dot "></i>
+                                </span>
+                                <address class="d-inline fst-italic">
+                                    Lorem ipsum dolor sit amet
+                                </address>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#"><button class="btn btn-outline-success">Entrar em
+                                        contato</button></a>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="card-body ">
-                        <p><i class="fa-solid fa-clock"></i> De segunda a sábado, de 08h às 20h.</p>
-                        <span>
-                            <i class="fa-solid fa-location-dot "></i>
-                        </span>
-                        <address class="d-inline fst-italic">
-                            Estrada Mirandela, 561, Centro, Nilópolis.
-                        </address>
+                    <div class="row">
+                        <div class=" col card wh">
+                            <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="">
+                            <div class="card-header">
+                                <h5 class="text-center">Campo Grande</h5>
+                            </div>
+                            <div class="card-body ">
+                                <p><i class="fa-solid fa-clock"></i>Lorem ipsum dolor sit amet.</p>
+                                <span>
+                                    <i class="fa-solid fa-location-dot "></i>
+                                </span>
+                                <address class="d-inline fst-italic">
+                                    Lorem ipsum dolor sit amet
+                                </address>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#"><button class="btn btn-outline-success">Entrar em
+                                        contato</button></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-footer text-center">
-                        <a href="#"><button class="btn btn-outline-success">Entrar em
-                                contato</button></a>
-                    </div>
-                </div>
-            </div>
+
 
         </section>
 
@@ -106,21 +136,150 @@
 
 
 
-        <!-- kits-->
-        <section class="back" id="kits">
+        <!-- cardapio-->
+        <section id="cardapio">
             <div class="container">
 
-                <h3 class="text-center mt-4">Nossos Kits
-                    <i class="fa-solid fa-cake-candles"></i>
-                </h3>
-                <!-- kit babys -->
-                <div id="kits-babys">
-                    <h4 class="ml-2"> Kits Babys</h4>
-                    <div class="card-deck  ">
+                <h2 class=" text-light text-center mt-4">
+                    Cardápio
 
+                </h2>
+                <!-- entradas-->
+                <div id="entrada">
+
+                    <h3 class="text-light"> Entrada</h3>
+                    <div class="card-deck">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col entradas card text-start">
+                                    <img class="card-img-top"
+                                        src="assets/css/imgs/cardapio/entradas/bruschetta-de-bacon.webp"
+                                        alt="Bruschetta de Bacon ">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Bruschetta de bacon</h5>
+                                        <p>Pão italiano, azeite mostarda, mussarela, provolone,bacon em cubos.</p>
+                                    </div>
+                                </div>
+                                <div class="col entradas card text-start">
+                                    <img class="card-img-top"
+                                        src="assets/css/imgs/cardapio/entradas/brusqueta-de-cogumelo-paris.webp"
+                                        alt="Brusqueta de cogumelo">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Brusqueta de cogumelo </h5>
+                                        <p> Cogumelo Paris,
+                                            alho,
+                                            tomate,
+                                            pimenta-do-reino,
+                                            cheiro-verde,
+                                            baguete,
+                                            parmesão,
+                                            mussarela,
+                                            Folhas orégano .
+                                        <p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col entradas card text-start">
+                                    <img class="card-img-top"
+                                        src="assets/css/imgs/cardapio/entradas/bruschetta-de-bacon.webp"
+                                        alt="Bruschetta de Bacon ">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Bruschetta de bacon</h5>
+                                        <p>Pão italiano, azeite mostarda, mussarela, provolone,bacon em cubos.</p>
+                                    </div>
+                                </div>
+                                <div class="col entradas card text-start">
+                                    <img class="card-img-top"
+                                        src="assets/css/imgs/cardapio/entradas/bruschetta-de-bacon.webp"
+                                        alt="Bruschetta de Bacon ">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Brusqueta de cogumelo </h5>
+                                        <p> Cogumelo Paris,
+                                            alho,
+                                            tomate,
+                                            pimenta-do-reino,
+                                            cheiro-verde,
+                                            baguete,
+                                            parmesão,
+                                            mussarela,
+                                            Folhas orégano .
+                                        <p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
+
+
+                </div>
+                <!-- massas -->
+                <div id="massas">
+                    <h3 class="text-light"> Massas</h3>
+                    <div class="card-deck">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col entradas card text-start">
+                                    <img class="card-img-top"
+                                        src="assets/css/imgs/cardapio/massas/lasanha-a-bolonhesa.jpg"
+                                        alt="Lasanha à bolonhesa">
+                                    <div class="card-body">
+                                        <h5 class="card-title
+                                    "> Lasanha à bolonhesa</h5>
+                                        <p>
+                                            Massa de lasanha, carne moída, creme de leite, presunto, mussarela,
+                                            parmessao ralado.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col entradas card text-start">
+                                    <img class="card-img-top" src="assets/css/imgs/cardapio/massas/conchiglione.jpg">
+
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Conchiglione de carne moída</h5>
+                                        <p> Massa de macarrao com formato de concha, carne moída
+                                        <p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col entradas card text-start">
+                                    <img class="card-img-top"
+                                        src="assets/css/imgs/cardapio/massas/lasanha-a-bolonhesa.jpg">
+
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Bruschetta de bacon</h5>
+                                        <p>Pão italiano, azeite mostarda, mussarela, provolone,bacon em cubos.</p>
+                                    </div>
+                                </div>
+                                <div class="col entradas card text-start">
+                                    <img class="card-img-top"
+                                        src="assets/css/imgs/cardapio/massas/lasanha-a-bolonhesa.jpg">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Brusqueta de cogumelo </h5>
+                                        <p> Cogumelo Paris,
+                                            alho,
+                                            tomate,
+                                            pimenta-do-reino,
+                                            cheiro-verde,
+                                            baguete,
+                                            parmesão,
+                                            mussarela,
+                                            Folhas orégano .
+                                        <p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="sobre">
+            
+        </section>
     </main>
 
 

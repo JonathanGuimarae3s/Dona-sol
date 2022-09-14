@@ -1,29 +1,71 @@
-/* declaraçoes gerais */
-.card-wrapper {
-	display: flex;
+/* declaraçoes gerais */	
+*{margin: 0%;
+
+padding: 0%;
+
+
 }
+
 :root {
 	--corPadrao: #ffc107;
+	--cor2: #f50b24;
+	--cor3: #592614;
+	--colorBlack: #0d0b08;
+	--cor4: #0aa66d;
 }
+
 body {
-	background-color: var(--corPadrao);
+	background-color: var(--cor2);
 }
+/* header */
+header {
+	height: fit-content;
+}
+.navbar-brand > a {
+	text-decoration: none;
+
+	font-weight: 500;
+}
+li.btn{
+	width: max-content;
+}
+.offcanvas.offcanvas-end{
+	width: 215px;
+}
+#encomendar {
+	background-color: var(--cor3);
+}
+/* canvas */
+.offcanvas {
+	background: var(--cor2);
+}
+/*fim canvas */
+
+/* fim header */
+/* Unidades */
+
 #unidades {
-	height: 36.5em;
-}
-.wh {
-	max-width: 230px;
+	height: fit-content;
+	padding: 10px;
 }
 
 .card {
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.575);
-	background-color: #ffffff;
+
+	max-width: 50%;
+	padding: 0%;
+	
 }
-/* fim das declaraçoes gerais */
-/*  */
-#kits-babys > h4 {
-	margin-left: 5em;
+/* fim Unidades */
+/* Cardapio */
+.row{
+	gap: 10px;
+	margin-bottom: 10px;
 }
-.text-end > span {
-	color: #e00024;
-}
+
+
+
+
+
+
+/* fim cardapio */
