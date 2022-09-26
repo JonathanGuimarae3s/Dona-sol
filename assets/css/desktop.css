@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
 	/* header */
 	header {
 		height: fit-content;
@@ -12,6 +12,6 @@
 		height: 37em;
 	}
 	.card {
-		width: 30%;
+		width: 50%;
 	}
 }
