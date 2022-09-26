@@ -52,14 +52,14 @@ li.btn{
 .card {
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.575);
 
-	max-width: 50%;
+	max-width: 100%;
 	padding: 0%;
 	
 }
 /* fim Unidades */
 /* Cardapio */
 .row{
-	gap: 10px;
+	
 	margin-bottom: 10px;
 }
 
