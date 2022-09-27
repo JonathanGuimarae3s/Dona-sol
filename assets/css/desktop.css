@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
 	/* header */
 	header {
 		height: fit-content;
@@ -6,12 +6,16 @@
 	.navbar-nav {
 		width: 440px;
 	}
+	#encomentdar:hover{
+	background-color: #0aa66d;
+
+}
 	/* fim header */
 	/* seção de unidades */
 	#unidades {
-		height: 37em;
+		height: fit-content;
 	}
-	.card {
-		width: 50%;
+	.card-unidades {
+		width: 80%;
 	}
 }

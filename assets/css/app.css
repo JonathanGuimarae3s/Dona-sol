@@ -28,14 +28,19 @@ header {
 }
 li.btn{
 	width: max-content;
+	padding: 0;
+	
+	
 }
+#encomendar {
+background-color: var(--cor3);
+}
+
+
+/* canvas */
 .offcanvas.offcanvas-end{
 	width: 215px;
 }
-#encomendar {
-	background-color: var(--cor3);
-}
-/* canvas */
 .offcanvas {
 	background: var(--cor2);
 }
@@ -50,19 +55,16 @@ li.btn{
 }
 
 
-.card {
+.card-unidades {
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.575);
 
-	max-width: 100%;
+	max-width: 80%;
 	padding: 0%;
 	
 }
 /* fim Unidades */
 /* Cardapio */
-.row{
-	
-	margin-bottom: 10px;
-}
+
 
 
 
