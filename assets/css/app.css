@@ -1,9 +1,8 @@
-/* declaraçoes gerais */	
-*{margin: 0%;
+/* declaraçoes gerais */
+* {
+	margin: 0%;
 
-padding: 0%;
-
-
+	padding: 0%;
 }
 
 :root {
@@ -26,19 +25,19 @@ header {
 
 	font-weight: 500;
 }
-li.btn{
+.navbar-nav {
+	align-items: initial;
+}
+li.btn {
 	width: max-content;
-	padding: 0;
-	
-	
+	padding: 3px 6px ;
 }
 #encomendar {
-background-color: var(--cor3);
+	background-color: var(--cor3);
 }
 
-
 /* canvas */
-.offcanvas.offcanvas-end{
+.offcanvas.offcanvas-end {
 	width: 215px;
 }
 .offcanvas {
@@ -54,21 +53,13 @@ background-color: var(--cor3);
 	padding: 10px;
 }
 
-
 .card-unidades {
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.575);
 
 	max-width: 80%;
 	padding: 0%;
-	
 }
 /* fim Unidades */
 /* Cardapio */
-
-
-
-
-
-
 
 /* fim cardapio */
