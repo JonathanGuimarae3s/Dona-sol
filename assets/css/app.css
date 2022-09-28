@@ -13,25 +13,36 @@
 	--cor4: #0aa66d;
 }
 
+/* geral */
 body {
 	background-color: var(--cor2);
 }
+
+.saber-mais {
+	filter: blur(4px);
+}
+
+/* fim-geral */
 /* header */
 header {
 	height: fit-content;
 }
-.navbar-brand > a {
+
+.navbar-brand>a {
 	text-decoration: none;
 
 	font-weight: 500;
 }
+
 .navbar-nav {
 	align-items: initial;
 }
+
 li.btn {
 	width: max-content;
-	padding: 3px 6px ;
+	padding: 3px 6px;
 }
+
 #encomendar {
 	background-color: var(--cor3);
 }
@@ -40,9 +51,11 @@ li.btn {
 .offcanvas.offcanvas-end {
 	width: 215px;
 }
+
 .offcanvas {
 	background: var(--cor2);
 }
+
 /*fim canvas */
 
 /* fim header */
@@ -59,6 +72,7 @@ li.btn {
 	max-width: 80%;
 	padding: 0%;
 }
+
 /* fim Unidades */
 /* Cardapio */
 
