@@ -18,9 +18,7 @@ body {
 	background-color: var(--cor2);
 }
 
-.saber-mais {
-	filter: blur(4px);
-}
+
 
 /* fim-geral */
 /* header */
@@ -75,5 +73,27 @@ li.btn {
 
 /* fim Unidades */
 /* Cardapio */
+#entrada,
+#massas {
+
+	background-color: var(--corPadrao);
+	border-radius: 3px;
+	padding: 1em;
+
+
+}
+
+.ver-mais:hover {
+	transition: all 4ms ease;
+	color: white;
+
+}
 
 /* fim cardapio */
+/* sobre */
+
+
+#sobre> div{
+	background-image: url(imgs/img-2.jpg);
+}
+/* fim sobre */
