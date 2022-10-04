@@ -38,13 +38,13 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link  text-light " aria-current="page" href="#">Home</a>
+                                <a class="nav-link  text-light animation-links" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link text-light" href="#">Combos</a>
+                                <a class="nav-link text-light animation-links" href="#">Combos</a>
                             </li>
                             <li class="nav-item  ">
-                                <a class="nav-link text-light" href="#">Sobre</a>
+                                <a class="nav-link text-light animation-links" href="#">Sobre</a>
                             </li>
                             <li class="btn " id="encomendar"><a href="#" class="nav-link text-light">Realizar
                                     encomenda</a></li>
@@ -65,20 +65,16 @@
 
             <div class="container">
                 <h4 class="text-center p-3">Nossas Unidades</h4>
-                <div class="card-deck  d-flex  flex-row flex-wrap justify-content-center align-center gap-4">
-                    <div class="row">
-                        <div class="col card wh">
-                            <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="">
-                            <div class="card-header">
-                                <h5 class="text-center">Campo Grande</h5>
-                            </div>
-                            <div class="card-body ">
-                                <p><i class="fa-solid fa-clock"></i>Lorem ipsum dolor sit amet.</p>
-                                <span>
-                                    <i class="fa-solid fa-location-dot "></i>
-                                </span>
+
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4  g-4  ">
+                    <div class="col d-flex  justify-content-center">
+                        <div class="card-unidades card text-start">
+                            <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">Juscelino</h4>
+                                <p class="card-text "><i class="fa-solid fa-clock"></i> Lorem ipsum dolor sit amet.</p>
                                 <address class="d-inline fst-italic">
-                                    Lorem ipsum dolor sit amet
+                                    <i class="fa-solid fa-location-dot "></i> Lorem ipsum dolor sit amet
                                 </address>
                             </div>
                             <div class="card-footer text-center">
@@ -86,18 +82,19 @@
                                         contato</button></a>
                             </div>
                         </div>
-                        <div class="col card wh">
-                            <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="">
-                            <div class="card-header">
-                                <h5 class="text-center">Campo Grande</h5>
-                            </div>
-                            <div class="card-body ">
-                                <p><i class="fa-solid fa-clock"></i>Lorem ipsum dolor sit amet.</p>
-                                <span>
-                                    <i class="fa-solid fa-location-dot "></i>
-                                </span>
+
+
+
+
+                    </div>
+                    <div class="col d-flex   justify-content-center">
+                        <div class="card-unidades card text-start">
+                            <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">Juscelino</h4>
+                                <p class="card-text "><i class="fa-solid fa-clock"></i> Lorem ipsum dolor sit amet.</p>
                                 <address class="d-inline fst-italic">
-                                    Lorem ipsum dolor sit amet
+                                    <i class="fa-solid fa-location-dot "></i> Lorem ipsum dolor sit amet
                                 </address>
                             </div>
                             <div class="card-footer text-center">
@@ -107,27 +104,45 @@
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class=" col card wh">
-                            <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="">
-                            <div class="card-header">
-                                <h5 class="text-center">Campo Grande</h5>
-                            </div>
-                            <div class="card-body ">
-                                <p><i class="fa-solid fa-clock"></i>Lorem ipsum dolor sit amet.</p>
-                                <span>
-                                    <i class="fa-solid fa-location-dot "></i>
-                                </span>
+                    <div class="col d-flex  justify-content-center">
+                        <div class="card  card-unidades text-start">
+                            <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">Juscelino</h4>
+                                <p class="card-text "><i class="fa-solid fa-clock"></i> Lorem ipsum dolor sit amet.</p>
                                 <address class="d-inline fst-italic">
-                                    Lorem ipsum dolor sit amet
+                                    <i class="fa-solid fa-location-dot "></i> Lorem ipsum dolor sit amet
                                 </address>
                             </div>
                             <div class="card-footer text-center">
                                 <a href="#"><button class="btn btn-outline-success">Entrar em
                                         contato</button></a>
                             </div>
+
                         </div>
                     </div>
+                    <div class="col d-flex  justify-content-center">
+                        <div class="card card-unidades text-start">
+                            <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title">Juscelino</h4>
+                                <p class="card-text "><i class="fa-solid fa-clock"></i> Lorem ipsum dolor sit amet.</p>
+                                <address class="d-inline fst-italic">
+                                    <i class="fa-solid fa-location-dot "></i> Lorem ipsum dolor sit amet
+                                </address>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="#"><button class="btn btn-outline-success">Entrar em
+                                        contato</button></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
 
 
         </section>
@@ -144,142 +159,218 @@
                     Cardápio
 
                 </h2>
+
                 <!-- entradas-->
-                <div id="entrada">
+                <section id="entrada" class=" my-2">
 
-                    <h3 class="text-light"> Entrada</h3>
-                    <div class="card-deck">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col entradas card text-start">
-                                    <img class="card-img-top"
-                                        src="assets/css/imgs/cardapio/entradas/bruschetta-de-bacon.webp"
-                                        alt="Bruschetta de Bacon ">
-                                    <div class="card-body">
-                                        <h5 class="card-title ">Bruschetta de bacon</h5>
-                                        <p>Pão italiano, azeite mostarda, mussarela, provolone,bacon em cubos.</p>
-                                    </div>
-                                </div>
-                                <div class="col entradas card text-start">
-                                    <img class="card-img-top"
-                                        src="assets/css/imgs/cardapio/entradas/brusqueta-de-cogumelo-paris.webp"
-                                        alt="Brusqueta de cogumelo">
-                                    <div class="card-body">
-                                        <h5 class="card-title ">Brusqueta de cogumelo </h5>
-                                        <p> Cogumelo Paris,
-                                            alho,
-                                            tomate,
-                                            pimenta-do-reino,
-                                            cheiro-verde,
-                                            baguete,
-                                            parmesão,
-                                            mussarela,
-                                            Folhas orégano .
-                                        <p>
-                                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h3 class="text-light"> Entrada</h3>
+                        <span class="ver-mais"><a href="#" class="nav-link">Ver Mais</a></span>
+                    </div>
+                    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4  g-4  ">
+                        <div class="col d-flex  justify-content-center">
+                            <div class="card-unidades card text-start">
+                                <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Juscelino</h4>
+                                    <p class="card-text ">Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col entradas card text-start">
-                                    <img class="card-img-top"
-                                        src="assets/css/imgs/cardapio/entradas/bruschetta-de-bacon.webp"
-                                        alt="Bruschetta de Bacon ">
-                                    <div class="card-body">
-                                        <h5 class="card-title ">Bruschetta de bacon</h5>
-                                        <p>Pão italiano, azeite mostarda, mussarela, provolone,bacon em cubos.</p>
-                                    </div>
+                        </div>
+                        <div class="col d-flex  justify-content-center">
+                            <div class="card-unidades card text-start">
+                                <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Juscelino</h4>
+                                    <p class="card-text ">Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+                                    </p>
                                 </div>
-                                <div class="col entradas card text-start">
-                                    <img class="card-img-top"
-                                        src="assets/css/imgs/cardapio/entradas/bruschetta-de-bacon.webp"
-                                        alt="Bruschetta de Bacon ">
-                                    <div class="card-body">
-                                        <h5 class="card-title ">Brusqueta de cogumelo </h5>
-                                        <p> Cogumelo Paris,
-                                            alho,
-                                            tomate,
-                                            pimenta-do-reino,
-                                            cheiro-verde,
-                                            baguete,
-                                            parmesão,
-                                            mussarela,
-                                            Folhas orégano .
-                                        <p>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex  justify-content-center">
+                            <div class="card-unidades card text-start">
+                                <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Juscelino</h4>
+                                    <p class="card-text ">Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex  justify-content-center">
+                            <div class="card-unidades card text-start">
+                                <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Juscelino</h4>
+                                    <p class="card-text ">Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                </section>
 
+                <section id="massas" class="bg-success my-2">
 
-                </div>
-                <!-- massas -->
-                <div id="massas">
-                    <h3 class="text-light"> Massas</h3>
-                    <div class="card-deck">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col entradas card text-start">
-                                    <img class="card-img-top"
-                                        src="assets/css/imgs/cardapio/massas/lasanha-a-bolonhesa.jpg"
-                                        alt="Lasanha à bolonhesa">
-                                    <div class="card-body">
-                                        <h5 class="card-title
-                                    "> Lasanha à bolonhesa</h5>
-                                        <p>
-                                            Massa de lasanha, carne moída, creme de leite, presunto, mussarela,
-                                            parmessao ralado.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col entradas card text-start">
-                                    <img class="card-img-top" src="assets/css/imgs/cardapio/massas/conchiglione.jpg">
-
-                                    <div class="card-body">
-                                        <h5 class="card-title ">Conchiglione de carne moída</h5>
-                                        <p> Massa de macarrao com formato de concha, carne moída
-                                        <p>
-                                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h3 class="text-light"> Massas</h3>
+                        <span class="ver-mais"><a href="#" class="nav-link">Ver Mais</a></span>
+                    </div>
+                    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4  g-4  ">
+                        <div class="col d-flex  justify-content-center">
+                            <div class="card-unidades card text-start">
+                                <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Juscelino</h4>
+                                    <p class="card-text ">Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col entradas card text-start">
-                                    <img class="card-img-top"
-                                        src="assets/css/imgs/cardapio/massas/lasanha-a-bolonhesa.jpg">
-
-                                    <div class="card-body">
-                                        <h5 class="card-title ">Bruschetta de bacon</h5>
-                                        <p>Pão italiano, azeite mostarda, mussarela, provolone,bacon em cubos.</p>
-                                    </div>
+                        </div>
+                        <div class="col d-flex  justify-content-center">
+                            <div class="card-unidades card text-start">
+                                <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Juscelino</h4>
+                                    <p class="card-text ">Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+                                    </p>
                                 </div>
-                                <div class="col entradas card text-start">
-                                    <img class="card-img-top"
-                                        src="assets/css/imgs/cardapio/massas/lasanha-a-bolonhesa.jpg">
-                                    <div class="card-body">
-                                        <h5 class="card-title ">Brusqueta de cogumelo </h5>
-                                        <p> Cogumelo Paris,
-                                            alho,
-                                            tomate,
-                                            pimenta-do-reino,
-                                            cheiro-verde,
-                                            baguete,
-                                            parmesão,
-                                            mussarela,
-                                            Folhas orégano .
-                                        <p>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex  justify-content-center">
+                            <div class="card-unidades card text-start">
+                                <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Juscelino</h4>
+                                    <p class="card-text ">Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex  justify-content-center">
+                            <div class="card-unidades card text-start">
+                                <img class="card-img-top" src="assets/css/imgs/logo.jpg" alt="Title">
+                                <div class="card-body">
+                                    <h4 class="card-title">Juscelino</h4>
+                                    <p class="card-text ">Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
+
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </section>
 
+            </div>
+
+
+
+        </section>
+
+        <section id="sobre">
+
+            <div class="p-4 bg-light container-fluid">
+                <div>
+                    <div class="text-center">
+                        <h4>
+                            Sobre
+                        </h4>
+                        <div id="sobre-descricao">
+                            <img src="assets/css/imgs/logo.jpg" class="rounded" alt="" width="40%">
+                            <div class="my-2">
+                                <p>
+                                    Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec leo commodo, ut
+                                    interdum diam laoreet. Sed non
+                                    consequat odio.Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo,
+                                    vitae iaculis nisl.Quem num gosta
+                                    di mim que vai caçá sua turmis!Pra lá , depois divoltis porris, paradis.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container d-flex gap-4 justify-content-center  "><i
+                                class="fa-brands fa-facebook-f animation-links"></i>
+                            <i class="fa-brands fa-twitter animation-links"></i>
+                            <i class="fa-brands fa-instagram animation-links"></i>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="sobre">
-            
-        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="container">
+                <ul class=" nav justify-content-center">
+                    <li class="nav-item "><a href="#"
+                            class="nav-link text-light  animation-links                       ">Nossas Unidades
+
+                        </a></li>
+                    <li class="nav-item "><a href="#" class="nav-link text-light animation-links">Cardápio</a></li>
+                    <li class="nav-item "><a href="#" class="nav-link text-light animation-links"> Redes Sociais</a>
+                    </li>
+                    <li class="nav-item "><a href="#" class="nav-link text-light animation-links"> Trabalhe Conosco</a>
+                    </li>
+
+                </ul>
+                <hr>
+            </div>
+            <p class="text-center">Desenvolvido por <span>Jonathan Guimarães</span> <i
+                    class="fa-brands fa-github  animation-links"></i>
+            </p>
+        </footer>
     </main>
 
 
@@ -289,6 +380,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
         crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

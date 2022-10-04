@@ -1,9 +1,8 @@
-/* declaraçoes gerais */	
-*{margin: 0%;
+/* declaraçoes gerais */
+* {
+	margin: 0%;
 
-padding: 0%;
-
-
+	padding: 0%;
 }
 
 :root {
@@ -14,31 +13,47 @@ padding: 0%;
 	--cor4: #0aa66d;
 }
 
+/* geral */
 body {
 	background-color: var(--cor2);
 }
+
+
+
+/* fim-geral */
 /* header */
 header {
 	height: fit-content;
 }
-.navbar-brand > a {
+
+.navbar-brand>a {
 	text-decoration: none;
 
 	font-weight: 500;
 }
-li.btn{
+
+.navbar-nav {
+	align-items: initial;
+}
+
+li.btn {
 	width: max-content;
+	padding: 3px 6px;
 }
-.offcanvas.offcanvas-end{
-	width: 215px;
-}
+
 #encomendar {
 	background-color: var(--cor3);
 }
+
 /* canvas */
+.offcanvas.offcanvas-end {
+	width: 215px;
+}
+
 .offcanvas {
 	background: var(--cor2);
 }
+
 /*fim canvas */
 
 /* fim header */
@@ -49,23 +64,36 @@ li.btn{
 	padding: 10px;
 }
 
-.card {
+.card-unidades {
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.575);
 
-	max-width: 50%;
+	max-width: 80%;
 	padding: 0%;
-	
 }
+
 /* fim Unidades */
 /* Cardapio */
-.row{
-	gap: 10px;
-	margin-bottom: 10px;
+#entrada,
+#massas {
+
+	background-color: var(--corPadrao);
+	border-radius: 3px;
+	padding: 1em;
+
+
 }
 
+.ver-mais:hover {
+	transition: all 4ms ease;
+	color: white;
 
-
-
-
+}
 
 /* fim cardapio */
+/* sobre */
+
+
+#sobre> div{
+	background-image: url(imgs/img-2.jpg);
+}
+/* fim sobre */
