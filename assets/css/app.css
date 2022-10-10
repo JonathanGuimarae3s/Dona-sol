@@ -4,6 +4,7 @@
 
 	padding: 0%;
 }
+
 :root {
 	--corPadrao: #ffc107;
 	--cor2: #f50b24;
@@ -11,23 +12,28 @@
 	--colorBlack: #0d0b08;
 	--cor4: #0aa66d;
 }
+
 /* geral */
 body {
 	background-color: var(--cor2);
 }
+
 /* fim-geral */
 /* header */
 header {
 	height: fit-content;
 }
+
 .navbar-brand>a {
 	text-decoration: none;
 
 	font-weight: 500;
 }
+
 .navbar-nav {
 	align-items: initial;
 }
+
 li.btn {
 	width: max-content;
 	padding: 3px 6px;
@@ -36,6 +42,7 @@ li.btn {
 #encomendar {
 	background-color: var(--cor3);
 }
+
 /* canvas */
 .offcanvas.offcanvas-end {
 	width: 215px;
@@ -72,14 +79,19 @@ li.btn {
 
 
 }
+
 .ver-mais:hover {
 	transition: all 4ms ease;
 	color: white;
 
 }
+
 /* fim cardapio */
 /* sobre */
 #sobre>div {
-	background-image: url(imgs/img-2.jpg);
+	background-image: url(imgs/img-.jpg);
+	background-size: cover;
+	overflow: hidden;
 }
+
 /* fim sobre */
