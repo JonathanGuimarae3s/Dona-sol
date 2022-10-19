@@ -1,10 +1,18 @@
+:root {
+	--corPadrao: #ffc107;
+	--cor2: #f50b24;
+	--cor3: #592614;
+	--colorBlack: #0d0b08;
+	--cor4: #0aa66d;
+}
 @media screen and (min-width: 600px) {
+
 
 	/* geral */
 
 	.animation-links:hover {
 		font-weight: 500;
-		color: #592614 !important;
+		color: var(--cor4) !important;
 
 		transition: all 3ms ease !important;
 	}
