@@ -48,6 +48,12 @@
 	}
 
 	/* sobre */
+	#sobre>div {
+
+		background-size: cover;
+		overflow: hidden;
+	}
+
 	#sobre-descricao>img {
 		width: 20%;
 	}
@@ -56,6 +62,8 @@
 		max-width: 50%;
 		margin: 0 auto;
 	}
+
+
 	/* fim sobre
 	 */
 }
