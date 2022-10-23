@@ -5,19 +5,10 @@
 	--colorBlack: #0d0b08;
 	--cor4: #0aa66d;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 992px) {
 
 
-	/* geral */
-
-	.animation-links:hover {
-		font-weight: 500;
-		color: var(--cor4) !important;
-
-		transition: all 3ms ease !important;
-	}
-
-	/* fim geral */
+	
 	/* header */
 	header {
 		height: fit-content;
@@ -48,14 +39,10 @@
 	}
 
 	/* sobre */
-	#sobre>div {
-
-		background-size: cover;
-		overflow: hidden;
-	}
+	
 
 	#sobre-descricao>img {
-		width: 20%;
+		max-width: 20%;
 	}
 
 	#sobre-descricao>div {
@@ -65,5 +52,6 @@
 
 
 	/* fim sobre
+
 	 */
 }

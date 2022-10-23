@@ -6,6 +6,7 @@
 	
 }
 
+
 :root {
 	--corPadrao: #ffc107;
 	--cor2: #f50b24;
@@ -17,6 +18,13 @@
 /* geral */
 body {
 	background-color: var(--cor2);
+
+}
+.animation-links:hover {
+	font-weight: 500;
+	color: var(--cor4) !important;
+
+	transition: all 3ms ease !important;
 }
 
 /* fim-geral */
@@ -90,9 +98,19 @@ li.btn {
 /* fim cardapio */
 /* sobre */
 #sobre>div {
-	background-image: url(imgs/img-.jpg);
+	background-image: url(imgs/img-1.jpg);
 	background-size: cover;
 	overflow: hidden;
+}
+#sobre-descricao> div{
+
+	background-color:#ffffffaa;
+	font-weight: 400;
+	padding: 20px;
+}
+
+#sobre img{
+	max-width: 40%;
 }
 
 /* fim sobre */
