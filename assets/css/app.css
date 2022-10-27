@@ -3,7 +3,7 @@
 	margin: 0%;
 
 	padding: 0%;
-	
+
 }
 
 
@@ -20,6 +20,7 @@ body {
 	background-color: var(--cor2);
 
 }
+
 .animation-links:hover {
 	font-weight: 500;
 	color: var(--cor4) !important;
@@ -33,15 +34,17 @@ header {
 	height: fit-content;
 }
 
+.navbar-nav {
+	align-items: initial;
+	padding: 10px 0 0 0;
+}
+
 .navbar-brand>a {
 	text-decoration: none;
 
 	font-weight: 500;
 }
 
-.navbar-nav {
-	align-items: initial;
-}
 
 li.btn {
 	width: max-content;
@@ -102,14 +105,15 @@ li.btn {
 	background-size: cover;
 	overflow: hidden;
 }
-#sobre-descricao> div{
 
-	background-color:#ffffffaa;
+#sobre-descricao>div {
+
+	background-color: #ffffffaa;
 	font-weight: 400;
 	padding: 20px;
 }
 
-#sobre img{
+#sobre img {
 	max-width: 40%;
 }
 
