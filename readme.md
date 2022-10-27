@@ -10,11 +10,7 @@
 ## Finalidade do Projeto
 
 Desenvolvi esse projeto a fim de praticar meus recentes conhecimentos no Bootstrap.
-
-<div >
-  <video src="assets/css/video/video-site.mp4" autoplay ></video>
-
-</div>
+[![Video Site Dona Sol](https://res.cloudinary.com/marcomontalbano/image/upload/v1666839076/video_to_markdown/images/youtube--2qitj494ILw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/2qitj494ILw "Video Site Dona Sol")
 
 ## Tecnologias e conceitos utilizados
 
