@@ -10,7 +10,18 @@
 ## Finalidade do Projeto
 
 Desenvolvi esse projeto a fim de praticar meus recentes conhecimentos no Bootstrap.
-[![Video Site Dona Sol](https://res.cloudinary.com/marcomontalbano/image/upload/v1666839076/video_to_markdown/images/youtube--2qitj494ILw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/2qitj494ILw "Video Site Dona Sol")
+<br>
+
+<div align="center">
+<img width="60%" src="https://github.com/JonathanGuimarae3s/Dona-sol/blob/main/assets/css/video/video-1.gif" />
+
+
+<img width="60%" src="https://github.com/JonathanGuimarae3s/Dona-sol/blob/main/assets/css/video/video-2.gif" /> 
+
+</div>
+
+
+
 
 ## Tecnologias e conceitos utilizados
 
